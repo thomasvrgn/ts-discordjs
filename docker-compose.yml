@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+  app:
+    build: .
+    command: npm run build
+    environment:
+      NODE_ENV: production
+    volumes:
+      - /home/app/ts-discordjs/
+      - /home/app/ts-discordjsg/node_modules
