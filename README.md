@@ -116,7 +116,7 @@ To build the project, do:
  # OR
  $ yarn docker:build
 
- $ docker run ts-discordjs_app
+ $ docker run typescript-bot_app
  # OR
  $ yarn docker:start
 
