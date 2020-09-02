@@ -3,15 +3,15 @@
  <img width=200px height=200px src="assets/logo.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Quark lang</h3>
+<h3 align="center">Typescript Discord.js Bot</h3>
 
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/NessMC/quark-lang.svg)](https://github.com/NessMC/quark-lang/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/NessMC/quark-lang.svg)](https://github.com/NessMC/quark-lang/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/NessMC/ts-discordjs.svg)](https://github.com/NessMC/ts-discordjs/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/NessMC/ts-discordjs.svg)](https://github.com/NessMC/ts-discordjs/pulls)
 [![License](https://img.shields.io/badge/license-Creative%20commons-blue.svg)](/LICENSE)
-[![BCH compliance](https://bettercodehub.com/edge/badge/NessMC/quark-lang?branch=master)](https://bettercodehub.com/)
+[![BCH compliance](https://bettercodehub.com/edge/badge/NessMC/ts-discordjs?branch=master)](https://bettercodehub.com/)
 [![Discord](https://discordapp.com/api/guilds/738827425043185717/widget.png?style=shield)](https://discord.gg/sXwE5Dp)
  
 </div>
@@ -19,7 +19,7 @@
 ---
 
 <p align="center"> 
-    Quark is a compiled programming language written in TypeScript.
+    This project is a Discord.js template written in Typescript.
     <br> 
 </p>
 
@@ -36,8 +36,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-The main goal of Quark is to offer a language that combines simplicity and
-productivity in addition to its cool syntax.
+The main goal of Quark is to offer a complete bot template and easy to modify.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -48,7 +47,7 @@ system.
 
 ### Prerequisites
 
-To install Quark, you will need:
+To install the project, you will need:
 
 ```
 Node.JS > 13
@@ -86,21 +85,21 @@ No usage informations for the moment.
 
 ## 🚀 Manual installation <a name = "manual"></a>
 
-To deploy Quark lang, do:
+To deploy the project, do:
 
 ```bash
- $ git clone git@github.com:NessMC/quark-lang.git
+ $ git clone git@github.com:NessMC/ts-discordjs.git
 
  # OR
 
  $ git init
- $ git remote add origin git@github.com:NessMC/quark-lang.git
+ $ git remote add origin git@github.com:NessMC/ts-discordjs.git
  $ git pull
 
  # OR
 
- $ docker pull nessmcfr/quark-lang
- $ docker run nessmcfr/quark-lang
+ $ docker pull nessmcfr/ts-discordjs
+ $ docker run nessmcfr/ts-discordjs
 ```
 
 ## 🚀 Build <a name = "build"></a>
@@ -117,7 +116,7 @@ To build the project, do:
  # OR
  $ yarn docker:build
 
- $ docker run quark-lang_app
+ $ docker run ts-discordjs_app
  # OR
  $ yarn docker:start
 
@@ -128,5 +127,5 @@ To build the project, do:
 -   [@NessMC](https://github.com/NessMC) - Idea & Initial work
 
 See also the list of
-[contributors](https://github.com/NessMC/quark-lang/contributors) who
+[contributors](https://github.com/NessMC/ts-discordjs/contributors) who
 participated in this project.
