@@ -1,2 +1,2 @@
-const commentContent: string = '/*//////////////////////////////////////\n               Quark lang               \n               Transpiler               \n//////////////////////////////////////*/';
+const commentContent: string = '/*////////////////////////////////////////\n              Discord.js Bot              \n                   Main                   \n////////////////////////////////////////*/';
 export default commentContent;
